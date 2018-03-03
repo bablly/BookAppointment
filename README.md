@@ -148,7 +148,7 @@ web层
 	 <!-- 4.扫描web相关的bean -->
 	 <context:component-scan base-package="com.imooc.appoint.web" />
 </beans>
-### 部分功能页面展示
+## 部分功能页面展示
 登录页面<br>
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/login.PNG) 
 管理员业务<br>

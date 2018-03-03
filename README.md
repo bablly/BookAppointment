@@ -48,7 +48,7 @@ dao层<br>
 		<!-- 配置MyBaties全局配置文件:mybatis-config.xml -->
 		<property name="configLocation" value="classpath:mybatis-config.xml" />
 		<!-- 扫描entity包 使用别名 -->
-		<property name="typeAliasesPackage" value="com.imooc.appoint.entity" /> 
+		<property name="typeAliasesPackage" value="com.szu.appoint.entity" /> 
 		<!-- 扫描sql配置文件:mapper需要的xml文件 -->
 		<property name="mapperLocations" value="classpath:mapper/*.xml" />
 	</bean>
@@ -58,7 +58,7 @@ dao层<br>
 		<!-- 注入sqlSessionFactory -->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 		<!-- 给出需要扫描Dao接口包 -->
-		<property name="basePackage" value="com.imooc.appoint.dao" /> 
+		<property name="basePackage" value="com.szu.appoint.dao" /> 
 	</bean>
 	
 </beans>
@@ -99,7 +99,7 @@ service层<br>
 		<!-- 配置MyBaties全局配置文件:mybatis-config.xml -->
 		<property name="configLocation" value="classpath:mybatis-config.xml" />
 		<!-- 扫描entity包 使用别名 -->
-		<property name="typeAliasesPackage" value="com.imooc.appoint.entity" /> 
+		<property name="typeAliasesPackage" value="com.szu.appoint.entity" /> 
 		<!-- 扫描sql配置文件:mapper需要的xml文件 -->
 		<property name="mapperLocations" value="classpath:mapper/*.xml" />
 	</bean>
@@ -109,7 +109,7 @@ service层<br>
 		<!-- 注入sqlSessionFactory -->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 		<!-- 给出需要扫描Dao接口包 -->
-		<property name="basePackage" value="com.imooc.appoint.dao" /> 
+		<property name="basePackage" value="com.szu.appoint.dao" /> 
 	</bean>
 	
 </beans>	
@@ -146,7 +146,7 @@ web层
 	 </bean>
 	 
 	 <!-- 4.扫描web相关的bean -->
-	 <context:component-scan base-package="com.imooc.appoint.web" />
+	 <context:component-scan base-package="com.szu.appoint.web" />
   </beans>
   
 ## 部分功能页面展示

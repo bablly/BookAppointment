@@ -149,16 +149,16 @@ web层
 	 <context:component-scan base-package="com.imooc.appoint.web" />
 </beans>
 ## 部分功能页面展示
-登录页面<br>
+ 登录页面<br>
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/login.PNG) 
-管理员业务<br>
+ 管理员业务<br>
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/admin.PNG)
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/work.PNG) 
-学生登录号页面<br>
+ 学生登录号页面<br>
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/list.PNG) 
-点击详情时若cookie中无学生登陆账号信息 重新登陆
+ 点击详情时若cookie中无学生登陆账号信息 重新登陆
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/cookie.PNG)
-预约业务<br>
+ 预约业务<br>
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/detail.PNG) 
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/detai2.PNG) 
 ![](https://github.com/tongweixu/BookAppointment/raw/master/Readme_Img/detail3.PNG) 
